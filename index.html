@@ -5,10 +5,226 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-title">
+                <span class="material-symbols-outlined">
+                    domain
+                </span>
+                <p></p>Dashboard</p>
+            </div>
+
+            <ul class="sidebar-pages">
+                <li><span class="material-symbols-outlined">
+                        home
+                    </span> Home</li>
+
+                <li>
+                    <span class="material-symbols-outlined">
+                        person
+                    </span> Profile
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">
+                        mode_comment
+                    </span> Messages
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">
+                        schedule
+                    </span> History
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">
+                        file_copy
+                    </span> Tasks
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">
+                        groups
+                    </span> Community
+                </li>
+            </ul>
+
+            <ul class="sidebar-important">
+                <li>
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span> Settings
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">
+                        help_center
+                    </span> Support
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">
+                        verified_user
+                    </span> Privacy
+                </li>
+            </ul>
+        </div>
+        <div class="header">
+            <div class="header-search">
+                <label for="search"><span class="material-symbols-outlined">
+                        search
+                    </span></label>
+                <input type="search" id="search">
+            </div>
+
+            <div class="header-profile">
+                <span class="material-symbols-outlined">
+                    notifications_active
+                </span>
+                <span class="material-symbols-outlined">
+                    account_circle
+                </span>
+                <p>Devin Le</p>
+            </div>
+
+            <div class="welcome">
+                <span class="material-symbols-outlined">
+                    account_circle
+                </span>
+                <div>
+                    <p>Hi there,</p>
+                    <h1>Devin Le</h1>
+                </div>
+
+            </div>
+
+            <div class="media-options">
+                <button type="button" class="media-buttons">New</button>
+                <button type="button" class="media-buttons">Upload</button>
+                <button type="button" class="media-buttons">Share</button>
+            </div>
+        </div>
+        <div class="social">
+            <div class="projects-container">
+                <h2>Your Projects</h2>
+                <div class="projects">
+                    <div class="cards">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore optio maxime placeat
+                            accusamus
+                            distinctio iusto?</p>
+                    </div>
+                    <div class="cards">
+                        <h3>Less Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aut ducimus tempore
+                            voluptatibus
+                            quidem nulla saepe, natus voluptates qui rerum, harum voluptate voluptas non quasi.</p>
+                    </div>
+                    <div class="cards">
+                        <h3>Impossible App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aut ducimus tempore
+                            voluptatibus
+                            quidem nulla saepe, natus voluptates qui rerum, harum voluptate voluptas non quasi.</p>
+                    </div>
+                    <div class="cards">
+                        <h3>Easy Peasy App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate quaerat, velit
+                            voluptatibus
+                            accusantium recusandae!</p>
+                    </div>
+                    <div class="cards">
+                        <h3>Ad Blocker</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, consequatur.</p>
+                    </div>
+                    <div class="cards">
+                        <h3>Money Maker</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aut ducimus tempore
+                            voluptatibus
+                            quidem nulla saepe, natus voluptates qui rerum, harum voluptate voluptas non quasi.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="announcements-container">
+                <h2>Announcements</h2>
+                <div class="announcements">
+                    <h4>Site Maintenance</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequatur, optio libero atque
+                        molestias possimus.</p>
+                    <hr>
+                    <h4>Community Share Day</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat et eius tempore reprehenderit
+                        assumenda officiis.</p>
+                    <hr>
+                    <h4>Updated Privacy Policy</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem maxime et nesciunt quam iusto
+                        mollitia
+                        blanditiis magnam cum esse saepe!</p>
+                </div>
+            </div>
+
+
+            <div class="trending-container">
+                <h2>Trending</h2>
+                <div class="trending">
+                    <div class="trending-account">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                        <div class="trending-account-info">
+                            <p>@tegan</p>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="trending-account">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                        <div class="trending-account-info">
+                            <p>@morgan</p>
+                            <p>Super Cool Project</p>
+                        </div>
+                    </div>
+                    <div class="trending-account">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                        <div class="trending-account-info">
+                            <p>@kendall</p>
+                            <p>Life Changing App</p>
+                        </div>
+                    </div>
+                    <div class="trending-account">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                        <div class="trending-account-info">
+                            <p>@alex</p>
+                            <p>No Traffic Maker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 
